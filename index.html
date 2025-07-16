@@ -1,42 +1,104 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Lollapalooza Lab Inc.</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body { margin: 0; font-family: 'Segoe UI', sans-serif; background-color: #0e0e0e; color: #f0f0f0; }
-        header { background: #111; padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; position: sticky; top: 0; z-index: 1000; }
-        nav a { margin-left: 1.5rem; color: #66ccff; text-decoration: none; font-weight: 500; }
-        nav a:hover { text-decoration: underline; }
-        .hero { padding: 6rem 2rem; text-align: center; background: url('https://source.unsplash.com/1600x900/?technology,futuristic') no-repeat center center; background-size: cover; color: #ffffff; height: 100vh; display: flex; flex-direction: column; justify-content: center; }
-        .hero h1 { font-size: 3rem; margin-bottom: 1rem; }
-        .hero p { font-size: 1.3rem; background-color: rgba(0,0,0,0.6); padding: 1rem; display: inline-block; border-radius: 10px; }
-        footer { background: #111; color: #888; text-align: center; padding: 2rem 1rem; font-size: 0.9rem; position: fixed; width: 100%; bottom: 0; }
-        footer a { color: #66ccff; text-decoration: none; margin: 0 0.5rem; }
-    </style>
+  <meta charset="UTF-8">
+  <title>Lollapalooza Lab Inc.</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #0e0e0e;
+      color: #f0f0f0;
+    }
+    header {
+      background: #111;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      position: sticky;
+      top: 0;
+      z-index: 1000;
+    }
+    nav a {
+      margin-left: 1.5rem;
+      color: #66ccff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    .hero {
+      padding: 6rem 2rem;
+      text-align: center;
+      background: url('https://source.unsplash.com/1600x900/?technology,futuristic') no-repeat center center;
+      background-size: cover;
+      color: #ffffff;
+      height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .hero h1 {
+      font-size: 3rem;
+      margin-bottom: 1rem;
+    }
+    .hero p {
+      font-size: 1.3rem;
+      background-color: rgba(0,0,0,0.6);
+      padding: 1rem;
+      display: inline-block;
+      border-radius: 10px;
+    }
+    .launchlist-container {
+      padding: 2rem;
+      text-align: center;
+    }
+    .launchlist-widget {
+      display: flex;
+      justify-content: center;
+      margin-top: 2rem;
+    }
+    footer {
+      background: #111;
+      color: #888;
+      text-align: center;
+      padding: 2rem 1rem;
+      font-size: 0.9rem;
+      position: fixed;
+      width: 100%;
+      bottom: 0;
+    }
+    footer a {
+      color: #66ccff;
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+  </style>
 </head>
 <body>
 
 <header>
-    <div><strong>Lollapalooza Lab</strong></div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="about.html">About</a>
-        <a href="products.html">Products</a>
-        <a href="contact.html">Contact</a>
-        <a href="privacy.html">Privacy</a>
-        <a href="terms.html">Terms</a>
-    </nav>
+  <div><strong>Lollapalooza Lab</strong></div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="products.html">Products</a>
+    <a href="contact.html">Contact</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="terms.html">Terms</a>
+  </nav>
 </header>
 
 <section class="hero">
-    <h1>Designing Products That Make Life Better</h1>
-    <p>We create software that blends AI, emotion, and elegant UX—built to guide healthier habits and meaningful moments.</p>
+  <h1>Designing Products That Make Life Better</h1>
+  <p>We create software that blends AI, emotion, and elegant UX—built to guide healthier habits and meaningful moments.</p>
 </section>
 
-<section style="padding: 2rem; text-align: center;">
-  <h1>New Feature: Running Bet with Friends!</h1>
+<section class="launchlist-container">
+  <h1>Simple Tools to Help You Focus and Grow</h1>
   <p>Join our waitlist to get early access.</p>
 
   <!-- GetLaunchList Widget Start -->
@@ -46,12 +108,13 @@
 </section>
 
 <footer>
-    <p>
-        <a href="privacy.html">Privacy Policy</a> |
-        <a href="terms.html">Terms & Conditions</a><br>
-        © 2025 Lollapalooza Lab Inc.
-    </p>
+  <p>
+    <a href="privacy.html">Privacy Policy</a> |
+    <a href="terms.html">Terms & Conditions</a><br>
+    © 2025 Lollapalooza Lab Inc.
+  </p>
 </footer>
 
 </body>
 </html>
+
